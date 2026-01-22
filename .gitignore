@@ -7,3 +7,16 @@ tmp/
 .idea/
 .vscode/
 firebase-debug.log*
+
+# Generated projects (created by the CLI)
+apps/
+
+# Sample/test projects
+chatter-box-app-sample/
+kebab-shop-appss/
+kebab-shop-kebab-maker/
+kebab-shop-chat/
+kebabs-are-life/
+simple-chater-box/
+simple-chatter-play/
+teddy-bear-namer/
