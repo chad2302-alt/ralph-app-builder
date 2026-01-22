@@ -1,0 +1,26 @@
+{
+  "name": "ralph-app-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@octokit/core": "^7.0.6",
+    "@types/node": "^25.0.10",
+    "dotenv": "^17.2.3",
+    "inquirer": "^13.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@angular/cli": "^21.1.1",
+    "@ionic/cli": "^7.2.1",
+    "firebase-tools": "^15.3.1"
+  }
+}
