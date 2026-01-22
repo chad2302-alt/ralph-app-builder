@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/bin/create-app.ts",
+    "create": "npx ts-node src/bin/create-app.ts",
+    "add-feature": "npx ts-node src/bin/create-app.ts --add-feature",
+    "ralph": "bash src/scripts/ralph.sh"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +25,7 @@
   "dependencies": {
     "@angular/cli": "^21.1.1",
     "@ionic/cli": "^7.2.1",
+    "execa": "^9.6.1",
     "firebase-tools": "^15.3.1"
   }
 }
